@@ -33,11 +33,6 @@ body h1, h2, h3, h4, h5, h6  {
     font-family: "ALK Sanet", sans-serif !important;
 }
 
-.uk-grid>*>:last-child {
-    font-family: "ALK Sanet", sans-serif !important;
-
-}
-
 .uk-navbar-nav {
     font-family: "ALK Sanet", sans-serif !important;
 }
@@ -584,8 +579,6 @@ footer .in-trading-risk {
         border-bottom-right-radius: 0;
         margin-bottom: -3px;
     }
-
-
 
     .in-article article.uk-card {
         z-index: -1;
@@ -8426,12 +8419,6 @@ readers do not read off random characters that represent icons */
     padding-top: 13px;
     padding-bottom: 16px;
 }
-
-.mybreadcrumb {
-    padding-top: 13px;
-    padding-bottom: 16px;
-}
-
 
 .in-liquid-1 .uk-container {
     margin-top: 10px;
