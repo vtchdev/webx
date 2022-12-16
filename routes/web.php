@@ -17,9 +17,8 @@ use App\Http\Controllers\FrontBlogCategory;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [FontBlogController::class, 'welcomeblog']);
+
 Route::get('/contact', function () {
      return view('pages.contact');
  });

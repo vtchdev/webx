@@ -37,6 +37,11 @@ body h1, h2, h3, h4, h5, h6  {
     font-family: "ALK Sanet", sans-serif !important;
 }
 
+footer .uk-light a.uk-button-text {
+    font-family: "ALK Sanet", sans-serif !important;
+
+}
+
 .uk-navbar-nav>li>a {
     font-family: "ALK Sanet", sans-serif !important;
 }

@@ -18,7 +18,7 @@
                             </div>
                         </div>
                         <div class="uk-width-1-2@s">
-                            <img class="in-slide-img" src="img/in-lazy.gif" data-src="{{ asset('img/in-liquid-slide-2.svg') }}" alt="image-slide" width="500" height="400" data-uk-img>
+                            <img class="in-slide-img" src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/in-liquid-slide-2.svg') }}" alt="image-slide" width="500" height="400" data-uk-img>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="uk-width-1-2@s">
-                            <img class="in-slide-img" src="img/in-lazy.gif" data-src="{{ asset('img/in-liquid-slide-2.svg') }}" alt="image-slide" width="500" height="400" data-uk-img>
+                            <img class="in-slide-img" src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/in-liquid-slide-2.svg') }}" alt="image-slide" width="500" height="400" data-uk-img>
                         </div>
                     </div>
                 </div>
@@ -67,22 +67,22 @@
             <div>
                 <div class="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
                     <img class="uk-margin-small-bottom" src="img/in-lazy.gif" data-src="img/in-liquid-icon-16.svg" alt="wave-award" width="72" height="72" data-uk-img>
-                    <h3 class="uk-margin-top">Wordpress</h3>
-                    <p>გთავაზობთ ერთ-ერთი საუკეთესო კონტენტის მართვის სისტემის მომსახურებას</p>
+                    <h3 class="uk-margin-top">საიტის დამზადება</h3>
+                    <p>თანამედროვე, ბრენდზე მორგებული, ოპტმიზირებული ვებ-გვერდის დამზადება </p>
                 </div>
             </div>
             <div>
                 <div class="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
                     <img class="uk-margin-small-bottom" src="img/in-lazy.gif" data-src="img/in-liquid-icon-17.svg" alt="wave-award" width="72" height="72" data-uk-img>
-                    <h3 class="uk-margin-top">Options</h3>
-                    <p>Excepteur sint cupidatat non proident sunt in culpa quina anim officia</p>
+                    <h3 class="uk-margin-top">SEO ოპტიმიზაცია</h3>
+                    <p>თანამედროვე, ბრენდზე მორგებული, ოპტმიზირებული ვებ-გვერდის დამზადება </p>
                 </div>
             </div>
             <div>
                 <div class="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
                     <img class="uk-margin-small-bottom" src="img/in-lazy.gif" data-src="img/in-liquid-icon-18.svg" alt="wave-award" width="72" height="72" data-uk-img>
-                    <h3 class="uk-margin-top">Multipliers</h3>
-                    <p>Excepteur sint cupidatat non proident sunt in culpa quina anim officia</p>
+                    <h3 class="uk-margin-top">ჰოსტინგი</h3>
+                    <p>WEB X თქვენს საიტს გაუწევს ჰოსტინგით უზრუნველყოფას და უსაფრთხოებას </p>
                 </div>
             </div>
         </div>
@@ -95,53 +95,32 @@
     <div class="uk-container">
         <div class="uk-grid uk-flex uk-flex-center">
             <div class="uk-width-1-1@m uk-text-center">
-                <h2>Education for all experience levels.</h2>
+                <h2>საინტერესო სტატიები ბლოგიდან</h2>
             </div>
         </div>
-        <div class="uk-grid uk-child-width-1-2@s uk-child-width-1-3@m" data-uk-grid>
-            <div>
-                <div class="uk-card uk-card-default uk-border-rounded uk-box-shadow-small uk-grid-collapse" data-uk-grid>
-                    <div class="uk-width-auto uk-card-media-left uk-flex uk-flex-middle">
-                        <img src="img/in-lazy.gif" data-src="img/in-liquid-17-image-1.jpg" width="100" height="100" alt="sample-image" data-uk-img>
+        <div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-4@m uk-margin-medium-top" data-uk-grid>
+
+     <!-- Blog -->   @foreach ($blogs as $blog)
+
+  <div class="uk-width-1-2@s">
+            <div class="uk-inline-clip">
+                <a href="/post/{{ $blog->id }}/{{ $blog->slug }}">
+                    <img class="uk-border-rounded" src="img/in-lazy.gif" data-src="/storage/{{ $blog->photo }}" alt="sample-image" data-width data-height data-uk-img>
+                    <div class="uk-position-bottom uk-overlay uk-overlay-primary">
+                        <h4 class="uk-margin-remove">{{ $blog->title }}</h4>
+                        <p class="uk-margin-remove uk-text-muted">{{ $blog->Blogcategory->name }}</p>
                     </div>
-                    <div class="uk-width-expand uk-flex uk-flex-middle">
-                        <div class="uk-card-body">
-                            <h5 class="uk-margin-remove">Webinars and events</h5>
-                            <a class="uk-button uk-button-text uk-margin-small-top" href="#">Sign up now<i class="fas fa-angle-right uk-margin-small-left"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-border-rounded uk-box-shadow-small uk-grid-collapse" data-uk-grid>
-                    <div class="uk-width-auto uk-card-media-left uk-flex uk-flex-middle">
-                        <img src="img/in-lazy.gif" data-src="img/in-liquid-17-image-2.jpg" width="100" height="100" alt="sample-image" data-uk-img>
-                    </div>
-                    <div class="uk-width-expand uk-flex uk-flex-middle">
-                        <div class="uk-card-body">
-                            <h5 class="uk-margin-remove">Trading strategy videos</h5>
-                            <a class="uk-button uk-button-text uk-margin-small-top" href="#">Watch now<i class="fas fa-angle-right uk-margin-small-left"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-border-rounded uk-box-shadow-small uk-grid-collapse" data-uk-grid>
-                    <div class="uk-width-auto uk-card-media-left uk-flex uk-flex-middle">
-                        <img src="img/in-lazy.gif" data-src="img/in-liquid-17-image-3.jpg" width="100" height="100" alt="sample-image" data-uk-img>
-                    </div>
-                    <div class="uk-width-expand uk-flex uk-flex-middle">
-                        <div class="uk-card-body">
-                            <h5 class="uk-margin-remove">Platform video guides</h5>
-                            <a class="uk-button uk-button-text uk-margin-small-top" href="#">Tour the platform<i class="fas fa-angle-right uk-margin-small-left"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="uk-width-1-1">
-                <div class="uk-text-center uk-text-small in-border-text">
-                    <p><span>Practice Stocks and CFDs trading in a risk-free environment. <a class="uk-button uk-button-small uk-button-primary uk-border-rounded uk-margin-left" href="#">Create demo account<i class="fas fa-angle-right uk-margin-small-left"></i></a></span></p>
-                </div>
+                </a>
+            </div> </div>
+            @endforeach
+<!-- Blog -->
+
+
+        </div>
+{{-- Blog Place --}}
+
+
+
             </div>
         </div>
     </div>
@@ -149,5 +128,38 @@
 <!-- section content end -->
 
 
+<!-- section content begin -->
+<div class="uk-section uk-section-muted in-liquid-5 uk-background-contain uk-background-top-center in-offset-bottom-40" style="background-image: url(img/in-liquid-5-bg.png);">
+    <div class="uk-container">
+        <div class="uk-grid uk-flex uk-flex-center">
+            <div class="uk-width-5-6@m">
+                <div class="uk-text-center">
+                    <h4>ტექნოლოგიები, რომლებსაც ვიყენებთ</h4>
+                </div>
+                <div class="uk-grid-collapse uk-child-width-1-2@s uk-child-width-1-6@m uk-text-center uk-margin-medium in-client-logo-6" data-uk-grid>
+                    <div class="uk-tile">
+                        <img class="uk-margin-remove" src="{{ asset('img/1.png') }}" data-src="{{ asset('img/1.png') }}" alt="payment-image" width="167" height="55" data-uk-img>
+                    </div>
+                    <div class="uk-tile">
+                        <img class="uk-margin-remove" src="{{ asset('img/code.png') }}" data-src="{{ asset('img/code.png') }}" alt="payment-image" width="167" height="55" data-uk-img>
+                    </div>
+                    <div class="uk-tile">
+                        <img class="uk-margin-remove" src="{{ asset('img/lara.png') }}" data-src="{{ asset('img/lara.png') }}" alt="payment-image" width="167" height="55" data-uk-img>
+                    </div>
+                    <div class="uk-tile">
+                        <img class="uk-margin-remove" src="{{ asset('img/shopify.png') }}" data-src="{{ asset('img/shopify.png') }}" alt="payment-image" width="167" height="55" data-uk-img>
+                    </div>
+                    <div class="uk-tile">
+                        <img class="uk-margin-remove" src="{{ asset('img/sql.png') }}" data-src="{{ asset('img/sql.png') }}" width="50px" alt="payment-image" width="167" height="55" data-uk-img>
+                    </div>
+                    <div class="uk-tile">
+                        <img class="uk-margin-remove" src="{{ asset('img/open.png') }}" data-src="{{ asset('img/open.png') }}" alt="payment-image" width="167" height="55" data-uk-img>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </div>
+</div>
+<!-- section content end -->
 @endcomponent

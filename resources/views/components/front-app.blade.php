@@ -112,7 +112,7 @@
                                 <i class="fas fa-history in-icon-wrap"></i>
                             </div>
                             <div>
-                                <h6 class="uk-margin-remove">25 years of Excellence</h6>
+                                <h6 class="uk-margin-remove">10 წლინი გამოცდილება</h6>
                             </div>
                         </div>
                         <div class="uk-flex uk-flex-middle uk-flex-center@m">
@@ -120,7 +120,7 @@
                                 <i class="fas fa-trophy in-icon-wrap"></i>
                             </div>
                             <div>
-                                <h6 class="uk-margin-remove">15+ Global Awards</h6>
+                                <h6 class="uk-margin-remove">50+ შესრულებული პროექტი</h6>
                             </div>
                         </div>
                         <div class="uk-flex uk-flex-middle uk-flex-right@m">
@@ -128,7 +128,7 @@
                                 <i class="fas fa-phone-alt in-icon-wrap"></i>
                             </div>
                             <div>
-                                <h6 class="uk-margin-remove">24/5 Customer Support</h6>
+                                <h6 class="uk-margin-remove">24/5 დახმარების ცენტრი</h6>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
         <div class="uk-container uk-text-small">
             <div class="uk-child-width-1-2@m" data-uk-grid>
                 <div class="in-footer-logo">
-                    <img src="img/in-lazy.gif" data-src="img/in-logo-1.svg" alt="logo" width="127" height="27" data-uk-img>
+                    <img src="img/in-lazy.gif" data-src="{{ asset('img/webx.svg') }}" alt="logo" width="127" height="27" data-uk-img>
                 </div>
                 <div class="uk-flex uk-flex-right@m">
                     <div class="in-footer-socials">
@@ -150,8 +150,8 @@
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-telegram-plane"></i></a>
                     </div>
-                    <a class="uk-button uk-button-text uk-margin-large-left uk-visible@m" href="#">Company News</a>
-                    <a class="uk-button uk-button-text uk-margin-large-left uk-visible@m" href="#">Partnership</a>
+                    <a class="uk-button uk-button-text uk-margin-large-left uk-visible@m" href="#">ბლოგი</a>
+                    <a class="uk-button uk-button-text uk-margin-large-left uk-visible@m" href="#">პარტნიორები</a>
                 </div>
             </div>
             <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-margin-large-top" data-uk-grid>
@@ -193,8 +193,8 @@
             </div>
             <div class="uk-grid uk-margin-large-top">
                 <div class="uk-width-1-1">
-                    <p class="uk-heading-line uk-margin-large-bottom"><span>Copyright ©2021 Liquid Inc. All Rights Reserved.</span></p>
-                    <p class="in-trading-risk">Trading derivatives and leveraged products carries a high level of risk, including the risk of losing substantially more than your initial investment. It is not suitable for everyone. Before you make any decision in relation to a financial product you should obtain and consider our Product Disclosure Statement (PDS) and Financial Services Guide (FSG) available on our website and seek independent advice if necessary</p>
+                    <p class="uk-heading-line uk-margin-large-bottom"><span>©2023 WEB X ყველა უფლება დაცულია!</span></p>
+                    <p class="in-trading-risk">საიტზე გამოქვეყნებული თითოეული გვერდის ინფორმაცია, წარმოადგენს კომპანია WEB X GEORGIA -ს ინტექტუალურ საკუთრებას, მისი დაკოპირება ან ნებისმიერი სხვა დანიშნულებით გამოყენება ნებართვის გარეშე აკრძალულია! </p>
                 </div>
             </div>
         </div>

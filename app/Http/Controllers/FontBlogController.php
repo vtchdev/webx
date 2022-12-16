@@ -24,4 +24,11 @@ class FontBlogController extends Controller
 
 
 
+    public function welcomeblog()
+    {
+        $blogs = Blog::orderBy('updated_at', 'DESC')->with('blogcategory')->paginate(4);
+
+        return view('welcome', compact('blogs'));
+    }
+
 }
