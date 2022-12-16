@@ -40,7 +40,7 @@
                         <div class="uk-navbar-item">
                             <!-- logo begin -->
                             <a class="uk-logo" href="/">
-                                <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/in-logo-1.svg') }}" alt="logo" width="160" height="34" data-uk-img>
+                                <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/web-x-logo.svg') }}" alt="logo" width="160" height="34" data-uk-img>
                             </a>
                             <!-- logo end -->
                             <!-- navigation begin -->
