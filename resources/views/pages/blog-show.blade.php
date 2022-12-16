@@ -8,7 +8,7 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1">
-                <ul class="uk-breadcrumb"></ul>
+                <ul class="mybreadcrumb"><a href="/">მთავარი </a> / <a href="/blog/">ბლოგი </a> / <a href="/post/{{ $blog->id }}/{{ $blog->slug }}">{{ $blog->title }}</a>  </ul>
             </div>
         </div>
     </div>
