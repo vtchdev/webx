@@ -6,64 +6,48 @@
   <div class="uk-section uk-padding-remove-vertical">
     <div class="uk-light in-slideshow uk-background-cover uk-background-top-center" style="background-image: url(img/in-liquid-slide-bg.png);" data-uk-slideshow>
         <ul class="uk-slideshow-items">
+
             <li>
                 <div class="uk-container">
                     <div class="uk-grid-medium" data-uk-grid>
                         <div class="uk-width-1-2@s">
                             <div class="uk-overlay">
-                                <h1>Award-winning trading platforms.</h1>
-                                <p class="uk-text-lead uk-visible@m">Explore endless trading opportunities with tight spreads and no commission</p>
-                                <a href="#" class="uk-button uk-button-default uk-border-rounded uk-visible@s">Discover platform</a>
+                                <h1>საიტის დამზადება</h1>
+                                <p class="uk-text-lead uk-visible@m">ბრენდის სტილზე მორგებული ვებ-გვერდი, სწრაფი და მორგებული დიზაინით.</p>
+                                <a href="/saitebis-damzadeba/" class="uk-button uk-button-default uk-border-rounded uk-visible@s">გაიგე მეტი..</a>
                             </div>
                         </div>
                         <div class="uk-width-1-2@s">
-                            <img class="in-slide-img" src="img/in-lazy.gif" data-src="img/in-liquid-slide-4.svg" alt="image-slide" width="500" height="400" data-uk-img>
+                            <img class="in-slide-img" src="img/in-lazy.gif" data-src="{{ asset('img/in-liquid-slide-2.svg') }}" alt="image-slide" width="500" height="400" data-uk-img>
                         </div>
                     </div>
                 </div>
             </li>
+
             <li>
                 <div class="uk-container">
                     <div class="uk-grid-medium" data-uk-grid>
                         <div class="uk-width-1-2@s">
                             <div class="uk-overlay">
-                                <h1>Learn forex with our courses.</h1>
-                                <p class="uk-text-lead uk-visible@m">Weekly educational workshops are a great resource for any skill level trader</p>
-                                <a href="#" class="uk-button uk-button-default uk-border-rounded uk-visible@s">Discover courses</a>
+                                <h1>საიტის დამზადება</h1>
+                                <p class="uk-text-lead uk-visible@m">ბრენდის სტილზე მორგებული ვებ-გვერდი, სწრაფი და მორგებული დიზაინით.</p>
+                                <a href="/saitebis-damzadeba/" class="uk-button uk-button-default uk-border-rounded uk-visible@s">გაიგე მეტი..</a>
                             </div>
                         </div>
                         <div class="uk-width-1-2@s">
-                            <img class="in-slide-img" src="img/in-lazy.gif" data-src="img/in-liquid-slide-3.svg" alt="image-slide" width="500" height="400" data-uk-img>
+                            <img class="in-slide-img" src="img/in-lazy.gif" data-src="{{ asset('img/in-liquid-slide-2.svg') }}" alt="image-slide" width="500" height="400" data-uk-img>
                         </div>
                     </div>
                 </div>
             </li>
         </ul>
+
         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
         <div class="uk-section uk-padding-remove-vertical in-slideshow-features uk-visible@m">
             <div class="uk-container">
                 <ul class="uk-grid uk-child-width-1-5@m uk-text-center" data-uk-grid>
-                    <li>
-                        <img src="img/in-lazy.gif" data-src="img/in-liquid-fxbtc.svg" alt="ticker-image" width="63" height="38" data-uk-img>
-                        <span class="uk-label uk-label-danger uk-margin-left"><i class="fas fa-caret-down"></i>2901.77</span>
-                    </li>
-                    <li>
-                        <img src="img/in-lazy.gif" data-src="img/in-liquid-fxeur.svg" alt="ticker-image" width="63" height="38" data-uk-img>
-                        <span class="uk-label uk-label-success uk-margin-left"><i class="fas fa-caret-up"></i>1.21603</span>
-                    </li>
-                    <li>
-                        <img src="img/in-lazy.gif" data-src="img/in-liquid-fxaud.svg" alt="ticker-image" width="63" height="38" data-uk-img>
-                        <span class="uk-label uk-label-success uk-margin-left"><i class="fas fa-caret-up"></i>0.77762</span>
-                    </li>
-                    <li>
-                        <img src="img/in-lazy.gif" data-src="img/in-liquid-fxjpy.svg" alt="ticker-image" width="63" height="38" data-uk-img>
-                        <span class="uk-label uk-label-danger uk-margin-left"><i class="fas fa-caret-down"></i>103.440</span>
-                    </li>
-                    <li>
-                        <img src="img/in-lazy.gif" data-src="img/in-liquid-fxcad.svg" alt="ticker-image" width="63" height="38" data-uk-img>
-                        <span class="uk-label uk-label-success uk-margin-left"><i class="fas fa-caret-up"></i>1.26175</span>
-                    </li>
+
                 </ul>
             </div>
         </div>
@@ -76,15 +60,15 @@
     <div class="uk-container uk-light">
         <div class="uk-grid-medium uk-child-width-1-4@m uk-flex uk-flex-middle" data-uk-grid>
             <div>
-                <h2>Trade types</h2>
-                <p class="uk-text-lead">Explore different trade types to trade on your preferred market.</p>
-                <a class="uk-button uk-button-default uk-border-rounded uk-margin-top" href="#">Start trading<i class="fas fa-angle-right uk-margin-small-left"></i></a>
+                <h2>სერვისები</h2>
+                <p class="uk-text-lead">ჩვენ გთავაზობთ საუკეთესო მომსახურებას შემდეგი მიმართულებით</p>
+                <a class="uk-button uk-button-default uk-border-rounded uk-margin-top" href="/services/">სრული სერვისები<i class="fas fa-angle-right uk-margin-small-left"></i></a>
             </div>
             <div>
                 <div class="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
                     <img class="uk-margin-small-bottom" src="img/in-lazy.gif" data-src="img/in-liquid-icon-16.svg" alt="wave-award" width="72" height="72" data-uk-img>
-                    <h3 class="uk-margin-top">Margin trading</h3>
-                    <p>Excepteur sint cupidatat non proident sunt in culpa quina anim officia</p>
+                    <h3 class="uk-margin-top">Wordpress</h3>
+                    <p>გთავაზობთ ერთ-ერთი საუკეთესო კონტენტის მართვის სისტემის მომსახურებას</p>
                 </div>
             </div>
             <div>

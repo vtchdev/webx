@@ -23,7 +23,12 @@
 @import url("//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css");
 
 html,
-body {
+body  {
+    overflow-x: hidden;
+    font-family: "ALK Sanet", sans-serif !important;
+}
+
+body h1, h2, h3, h4, h5, h6  {
     overflow-x: hidden;
     font-family: "ALK Sanet", sans-serif !important;
 }
@@ -45,11 +50,27 @@ body {
 header .in-optional-nav .uk-button-primary {
     font-family: "ALK Sanet", sans-serif !important;
 }
+
+.in-slideshow .uk-button {
+    font-family: "ALK Sanet", sans-serif !important;
+
+}
 @media (max-width: 960px) {
     .uk-section.uk-padding-large {
         padding-left: 0;
         padding-right: 0;
     }
+
+
+    .uk-card-primary.uk-card-body .uk-button-default, .uk-card-primary>:not([class*=uk-card-media]) .uk-button-default, .uk-card-secondary.uk-card-body .uk-button-default, .uk-card-secondary>:not([class*=uk-card-media]) .uk-button-default, .uk-light .uk-button-default, .uk-offcanvas-bar .uk-button-default, .uk-overlay-primary .uk-button-default, .uk-section-primary:not(.uk-preserve-color) .uk-button-default, .uk-section-secondary:not(.uk-preserve-color) .uk-button-default, .uk-tile-primary:not(.uk-preserve-color) .uk-button-default, .uk-tile-secondary:not(.uk-preserve-color) .uk-button-default  {
+        font-family: "ALK Sanet", sans-serif !important;
+
+    }
+
+}
+
+.in-slideshow h1 {
+    font-family: "ALK Sanet", sans-serif !important;
 }
 
 .uk-button {
